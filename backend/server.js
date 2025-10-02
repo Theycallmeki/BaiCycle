@@ -6,7 +6,7 @@ const itemRoutes = require('./routes/itemRoutes');
 const Item = require('./models/item'); // Import model so Sequelize syncs
 
 const app = express();
-const PORT = 3005; // 👈 Backend runs on port 3005
+const PORT = 2005; // 👈 Backend runs on port 3005
 
 // Middleware
 app.use(cors({
